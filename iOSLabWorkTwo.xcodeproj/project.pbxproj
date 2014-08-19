@@ -13,6 +13,7 @@
 		92CA591E19A34E6D00D91CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CA591C19A34E6D00D91CC9 /* Main.storyboard */; };
 		92CA592019A34E6D00D91CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CA591F19A34E6D00D91CC9 /* Images.xcassets */; };
 		92CA592C19A34E6D00D91CC9 /* iOSLabWorkTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CA592B19A34E6D00D91CC9 /* iOSLabWorkTwoTests.m */; };
+		92D22D4119A35C5C009806E4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D22D4019A35C5C009806E4 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		92CA592519A34E6D00D91CC9 /* iOSLabWorkTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLabWorkTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CA592A19A34E6D00D91CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92CA592B19A34E6D00D91CC9 /* iOSLabWorkTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLabWorkTwoTests.m; sourceTree = "<group>"; };
+		92D22D3F19A35C5C009806E4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		92D22D4019A35C5C009806E4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				92CA591C19A34E6D00D91CC9 /* Main.storyboard */,
 				92CA591F19A34E6D00D91CC9 /* Images.xcassets */,
 				92CA591219A34E6D00D91CC9 /* Supporting Files */,
+				92D22D3F19A35C5C009806E4 /* TableViewController.h */,
+				92D22D4019A35C5C009806E4 /* TableViewController.m */,
 			);
 			path = iOSLabWorkTwo;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				92CA591B19A34E6D00D91CC9 /* ViewController.m in Sources */,
 				92CA591819A34E6D00D91CC9 /* AppDelegate.m in Sources */,
 				92CA591519A34E6D00D91CC9 /* main.m in Sources */,
+				92D22D4119A35C5C009806E4 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +410,7 @@
 				92CA593119A34E6D00D91CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92CA593219A34E6D00D91CC9 /* Build configuration list for PBXNativeTarget "iOSLabWorkTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +419,7 @@
 				92CA593419A34E6D00D91CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

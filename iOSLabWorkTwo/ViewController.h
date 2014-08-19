@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)button:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *textLabelName;
+@property (weak, nonatomic) IBOutlet UITextField *textLabelNamber;
+@property NSString *str;
+@property NSString *str2;
+
 
 
 @end
